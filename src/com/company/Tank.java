@@ -14,13 +14,17 @@ public abstract class Tank {
         this.numberOfMonth = numberOfMonth;
     }
 
-    public abstract void statistic();
 
-    public String toString() {
+
+     public String toString() {
        return "Производитель: " + nameManufacturer.getNameRU() +
                ", Вооружение: " + arming.getNameRu() +
                ", Выпуск по месяцам " + Arrays.toString(numberOfMonth);
 
 
+    }
+
+    public int[] getNumberOfMonth () {
+        return numberOfMonth;
     }
 }
