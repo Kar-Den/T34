@@ -2,11 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="40de6135-59d7-4284-bd25-fd0a5403c237" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/company/Guns.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/T34/com/company/Arming.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/T34/com/company/Arming.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/T34/com/company/ArmsRelease.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/T34/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/T34/com/company/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/T34/com/company/T34.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/T34/com/company/Tank.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/T34/com/company/Tank.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Arming.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Arming.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/ArmsRelease.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/T34.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/ArmsRelease.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Tank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Tank.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +21,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -33,6 +38,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunManager" selected="Application.Main">
     <configuration name="Data" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -40,7 +46,7 @@
       <module name="T34" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.company.*" />
+          <option name="PATTERN" value="com.company.Arming" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -83,35 +89,44 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="74" y="173" width="816" height="733" key="#Intentions" timestamp="1587923835988">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="74" y="173" width="816" height="733" key="#Intentions/0.0.1920.1040/-1920.370.1920.1080@0.0.1920.1040" timestamp="1587923835988" />
     <state x="993" y="117" key="#com.intellij.ide.util.MemberChooser" timestamp="1587890586976">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="993" y="117" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/-1920.370.1920.1080@0.0.1920.1040" timestamp="1587647307833" />
     <state x="993" y="117" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/-1920.392.1920.1080@0.0.1920.1040" timestamp="1587890586976" />
-    <state x="965" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1587873353306">
+    <state x="664" y="202" key="#com.intellij.refactoring.encapsulateFields.EncalpsulateFieldsDialog" timestamp="1587923678329">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="664" y="202" key="#com.intellij.refactoring.encapsulateFields.EncalpsulateFieldsDialog/0.0.1920.1040/-1920.370.1920.1080@0.0.1920.1040" timestamp="1587923678329" />
+    <state x="911" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1587922580068">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="911" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040/-1920.370.1920.1080@0.0.1920.1040" timestamp="1587922580068" />
     <state x="965" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040/-1920.392.1920.1080@0.0.1920.1040" timestamp="1587873353306" />
-    <state width="1876" height="287" key="GridCell.Tab.0.bottom" timestamp="1587890797510">
+    <state width="1876" height="207" key="GridCell.Tab.0.bottom" timestamp="1587925825241">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="183" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.370.1920.1080@0.0.1920.1040" timestamp="1587750721824" />
-    <state width="1876" height="287" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.392.1920.1080@0.0.1920.1040" timestamp="1587890797510" />
-    <state width="1876" height="287" key="GridCell.Tab.0.center" timestamp="1587890797509">
+    <state width="1876" height="207" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.370.1920.1080@0.0.1920.1040" timestamp="1587925825241" />
+    <state width="1876" height="207" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.392.1920.1080@0.0.1920.1040" timestamp="1587891671935" />
+    <state width="1876" height="207" key="GridCell.Tab.0.center" timestamp="1587925825240">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="183" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.370.1920.1080@0.0.1920.1040" timestamp="1587750721824" />
-    <state width="1876" height="287" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.392.1920.1080@0.0.1920.1040" timestamp="1587890797509" />
-    <state width="1876" height="287" key="GridCell.Tab.0.left" timestamp="1587890797509">
+    <state width="1876" height="207" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.370.1920.1080@0.0.1920.1040" timestamp="1587925825240" />
+    <state width="1876" height="207" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.392.1920.1080@0.0.1920.1040" timestamp="1587891671935" />
+    <state width="1876" height="207" key="GridCell.Tab.0.left" timestamp="1587925825240">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="183" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.370.1920.1080@0.0.1920.1040" timestamp="1587750721824" />
-    <state width="1876" height="287" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.392.1920.1080@0.0.1920.1040" timestamp="1587890797509" />
-    <state width="1876" height="287" key="GridCell.Tab.0.right" timestamp="1587890797510">
+    <state width="1876" height="207" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.370.1920.1080@0.0.1920.1040" timestamp="1587925825240" />
+    <state width="1876" height="207" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.392.1920.1080@0.0.1920.1040" timestamp="1587891671935" />
+    <state width="1876" height="207" key="GridCell.Tab.0.right" timestamp="1587925825240">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="183" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.370.1920.1080@0.0.1920.1040" timestamp="1587750721824" />
-    <state width="1876" height="287" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.392.1920.1080@0.0.1920.1040" timestamp="1587890797510" />
+    <state width="1876" height="207" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.370.1920.1080@0.0.1920.1040" timestamp="1587925825240" />
+    <state width="1876" height="207" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.392.1920.1080@0.0.1920.1040" timestamp="1587891671935" />
     <state x="342" y="139" key="new project wizard" timestamp="1587853711592">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
