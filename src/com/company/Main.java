@@ -5,7 +5,10 @@ import java.util.Calendar;
 public class Main {
 
     public static void main(String[] args) {
-       Arming.createTable(Calendar.APRIL);
+
+
+
+        Arming.createTable(Calendar.APRIL);
 
     }
 

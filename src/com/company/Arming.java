@@ -19,6 +19,10 @@ public class Arming extends Tank { //Выпуск Вооружения
         Object[] arming;
         arming = new Object[]{arming0, arming1, arming2, arming3};
 
+//        System.out.println("");
+        System.out.println("| ПРОИЗВОДИТЕЛЬ | ВООРУЖЕНИЕ |");
+//        System.out.println("");
+
 
         for (Object x : arming) {
             columnMonth((Tank) x, month);
@@ -28,11 +32,19 @@ public class Arming extends Tank { //Выпуск Вооружения
 
 
     public static void columnMonth(Tank arming, int month) { // печатает столбец по выранному месяцу
+        int widthColumnManufacturer = 15;
+        int widthColumnGuns = 10;
+        int widthColumnMonth = 10;
+        String manufacturer = "|" +arming.nameManufacturer.getNameRU() + "|";
+        String guns = arming.guns.getNameRu() + "|";
+        String numberOfMonth = arming.numberOfMonth[month] + "|";
+
+
 
         if (arming.numberOfMonth[month] > 0) {
-            System.out.print(arming.nameManufacturer.getNameRU() + "|");
-            System.out.print(arming.guns.getNameRu() + "|");
-            System.out.print(arming.numberOfMonth[month] + "|"); // цифра [0] - Январь, 1-Февраль и т.д.
+            System.out.print(manufacturer);
+            System.out.print(guns);
+            System.out.print(numberOfMonth); // цифра [0] - Январь, 1-Февраль и т.д.
             System.out.println();
         }
     }

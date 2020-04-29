@@ -12,6 +12,7 @@ public abstract class Tank {
         this.nameManufacturer = Manufacturer;
         this.guns = Guns;
         this.numberOfMonth = numberOfMonth;
+
     }
 
 
