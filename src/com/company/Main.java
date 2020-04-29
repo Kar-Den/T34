@@ -8,7 +8,7 @@ public class Main {
 
 
 
-        Arming.createTable(Calendar.APRIL);
+        Arming.createTable(Calendar.JANUARY);
 
     }
 

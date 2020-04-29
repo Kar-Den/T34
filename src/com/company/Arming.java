@@ -35,16 +35,17 @@ public class Arming extends Tank { //Выпуск Вооружения
         int widthColumnManufacturer = 15;
         int widthColumnGuns = 10;
         int widthColumnMonth = 10;
-        String manufacturer = "|" +arming.nameManufacturer.getNameRU() + "|";
+        StringBuffer str0 = new StringBuffer();
+        StringBuffer manufacturer = new StringBuffer("|" +arming.nameManufacturer.getNameRU() + "|");
         String guns = arming.guns.getNameRu() + "|";
         String numberOfMonth = arming.numberOfMonth[month] + "|";
 
 
 
         if (arming.numberOfMonth[month] > 0) {
-            System.out.print(manufacturer);
-            System.out.print(guns);
-            System.out.print(numberOfMonth); // цифра [0] - Январь, 1-Февраль и т.д.
+            System.out.print(manufacturer.append(guns).append(numberOfMonth));
+//            System.out.print(guns);
+//            System.out.print(numberOfMonth); // цифра [0] - Январь, 1-Февраль и т.д.
             System.out.println();
         }
     }
